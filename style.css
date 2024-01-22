@@ -74,6 +74,8 @@ input[type=text] {
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
     font-size: 16px;
     background-color: rgba(255, 255, 255, 0.24);
     color: #000;
@@ -94,4 +96,44 @@ i
     opacity: 0.8;
 }
 
+
+@media (max-width: 1081px)
+{
+    body
+    {
+        
+        display: flex;
+        height: 95vh;
+        justify-content:center;
+        align-items:flex-start;
+    }
+    section .result
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        
+    }
+    input[type=text] {
+        width: 100%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: rgba(255, 255, 255, 0.24);
+        color: #000;
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 5px;
+
+      }
+      section .container
+        {
+    
+         width: 800px;
+        
+        }
+
+}
 
