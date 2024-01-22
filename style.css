@@ -135,5 +135,17 @@ i
         
         }
 
+        h1
+{
+    font-size: 5em;
+    opacity: 0.8;
+
+}
+section .result > *
+{
+    font-size: 1em;
+    
+}
+
 }
 
