@@ -1,0 +1,151 @@
+body
+{
+    background-color: black;
+    display: flex;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+}
+img
+{
+    position:absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    filter:blur(20px);
+    
+}
+section .container
+{
+    
+         width: 1000px;
+        
+        
+        border-radius: 15px;
+        
+
+    
+}
+section > *	
+{   
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 2em;
+    
+}
+section .result
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+}
+section .result > *
+{
+    font-size: 2em;
+    margin-right: 40px;
+}
+button
+{
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+button:hover
+{
+    
+    opacity: 0.6;
+    border-style: solid;
+    
+}
+button:active
+{
+    
+    opacity: 0.9;
+    border-style: solid;
+    
+}
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.24);
+    color: #000;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 5px;
+  }
+
+h1
+{
+    font-size: 7em;
+    opacity: 0.8;
+
+}
+i
+{
+    margin-top: 60px;
+    opacity: 0.8;
+}
+
+
+@media only screen and (max-width: 1008px) 
+{
+    body
+    {
+        
+        display: flex;
+        height: 95vh;
+        justify-content:center;
+        align-items:flex-start;
+    }
+    section .result
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        
+    }
+    input[type=text] {
+        width: 100%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: rgba(255, 255, 255, 0.24);
+        color: #000;
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 5px;
+
+      }
+      section .container
+        {
+    
+         width: 800px;
+        
+        }
+
+        h1
+{
+    font-size: 5em;
+    opacity: 0.8;
+
+}
+section .result > *
+{
+    font-size: 1em;
+    
+}
+
+}
+
